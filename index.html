@@ -1,0 +1,444 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="video.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="general.css" />
+    <link rel="stylesheet" href="sidebar.css" />
+    <title>Youtube Clone</title>
+  </head>
+  <body>
+    <!--Header-->
+    <header class="header">
+      <div class="left">
+        <img class="menu" src="icon-1.svg" />
+        <img class="logo" src="icon-2.svg" />
+      </div>
+      <div class="middle">
+        <input
+          class="search-bar"
+          id="search-input"
+          type="text"
+          placeholder="Search"
+        />
+        <button class="search-btn" id="search-button">
+          <img class="search-img" src="icon-3.svg" />
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-btn">
+          <img class="voice-img" src="icon-4(1).svg" alt="" />
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right">
+        <div class="upload-div">
+          <img class="icon" src="icon-4.svg" />
+          <div class="tooltip">Upload</div>
+        </div>
+        <div class="square">
+          <img class="icon" src="icon-5.svg" />
+          <div class="tooltip">Channels</div>
+        </div>
+        <div class="notifications">
+          <div class="notify">
+            <img class="icon" src="icon-6.svg" />
+            <div class="tooltip">notifications</div>
+          </div>
+          <div class="number3">3</div>
+        </div>
+        <img class="profile-logo" src="profile.jpg" />
+      </div>
+    </header>
+    <!--Sidebar-->
+    <nav class="sidebar">
+      <div class="sidebar-items">
+        <img src="home.svg" />
+        <div>Home</div>
+      </div>
+      <div class="sidebar-items">
+        <img src="explore.svg" />
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-items">
+        <img src="subscriptions.svg" />
+        <div>Subscription</div>
+      </div>
+      <div class="sidebar-items">
+        <img src="library.svg" />
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-items">
+        <img src="youtube-music.svg" />
+        <div>Youtube music</div>
+      </div>
+      <div class="sidebar-items">
+        <img src="originals.svg" />
+        <div>Library</div>
+      </div>
+    </nav>
+    <!--Main-->
+    <main>
+      <section class="grid" id="video-grid">
+        <div class="box">
+          <div class="thumb">
+            <a
+              href="https://www.youtube.com/watch?v=n2RNcPRtAiY"
+              target="_blank"
+              class="video-title-link"
+            >
+              <img class="thumbnail" src="thumbnail-1.webp" />
+            </a>
+            <div class="time">10:30</div>
+          </div>
+          <div class="pro-text">
+            <div class="profile">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/c/mkbhd" target="_blank">
+                  <img class="pro" src="pro-1.jpeg" alt="profile" />
+                </a>
+                <div class="channel-tooltip">
+                  <img class="channel-tooltip-picture" src="pro-1.jpeg" />
+                  <div>
+                    <div class="channel-tooltip-name">Marques Brownlee</div>
+                    <div class="channel-tooltip-status">15M subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="text">
+              <a
+                href="https://www.youtube.com/watch?v=n2RNcPRtAiY"
+                target="_blank"
+                class="video-title-link"
+              >
+                <p class="p1">
+                  Talking Tech and AI with Google CEO Sundar Pichai!
+                </p>
+              </a>
+              <p class="p2">Marques Brownlee</p>
+              <p class="p3">3.4M views ·6 months ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="thumb">
+            <a
+              href="https://www.youtube.com/watch?v=n2RNcPRtAiY"
+              target="_blank"
+              class="video-title-link"
+            >
+              <img class="thumbnail" src="thumbnail-3.webp" />
+            </a>
+            <div class="time">11:30</div>
+          </div>
+          <div class="pro-text">
+            <div class="profile">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/c/mkbhd" target="_blank">
+                  <img class="pro" src="pro-2.jpeg" alt="profile" />
+                </a>
+                <div class="channel-tooltip">
+                  <img class="channel-tooltip-picture" src="pro-2.jpeg" />
+                  <div>
+                    <div class="channel-tooltip-name">Marques Brownlee</div>
+                    <div class="channel-tooltip-status">15M subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="text">
+              <a
+                href="https://www.youtube.com/watch?v=mP0RAo9SKZk"
+                target="_blank"
+                class="video-title-link"
+              >
+                <p class="p1">Crazy Tik Toks Taken Moments Before DISASTER</p>
+              </a>
+              <p class="p2">SSSniperWolf</p>
+              <p class="p3">12M views · 1 year ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="thumb">
+            <a
+              href="https://www.youtube.com/watch?v=mP0RAo9SKZk"
+              target="_blank"
+              class="video-title-link"
+            >
+              <img class="thumbnail" src="thumbnail-4.webp" />
+            </a>
+            <div class="time">1:30</div>
+          </div>
+          <div class="pro-text">
+            <div class="profile">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/c/markiplier" target="_blank">
+                  <img class="pro" src="pro-3.jpeg" alt="profile" />
+                </a>
+                <div class="channel-tooltip">
+                  <img class="channel-tooltip-picture" src="pro-3.jpeg" />
+                  <div>
+                    <div class="channel-tooltip-name">Marques Brownlee</div>
+                    <div class="channel-tooltip-status">15M subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="text">
+              <a
+                href="https://www.youtube.com/watch?v=FgjPQQeTh1w"
+                target="_blank"
+                class="video-title-link"
+              >
+                <p class="p1">
+                  The Simple Math Problem No One Can Slove - Collatz Conjecture
+                </p>
+              </a>
+              <p class="p2">Veritasium</p>
+              <p class="p3">18M views · 4 monnths ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="thumb">
+            <a
+              href="https://www.youtube.com/watch?v=FgjPQQeTh1w"
+              target="_blank"
+              class="video-title-link"
+            >
+              <img class="thumbnail" src="thumbnail-5.webp" />
+            </a>
+            <div class="time">12:00</div>
+          </div>
+          <div class="pro-text">
+            <div class="profile">
+              <div class="profile-picture-container">
+                <a
+                  href="https://www.youtube.com/user/SSSniperWolf"
+                  target="_blank"
+                >
+                  <img class="pro" src="pro-4.jpeg" alt="profile" />
+                </a>
+                <div class="channel-tooltip">
+                  <img class="channel-tooltip-picture" src="pro-4.jpeg" />
+                  <div>
+                    <div class="channel-tooltip-name">Marques Brownlee</div>
+                    <div class="channel-tooltip-status">15M subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="text">
+              <a
+                href="https://www.youtube.com/watch?v=094y1Z2wpJg"
+                target="_blank"
+                class="video-title-link"
+              >
+                <p class="p1">
+                  Kadane's Algorithm to Maximum Sum Subarray Problem
+                </p>
+              </a>
+              <p class="p2">CS Dojo</p>
+              <p class="p3">519k views ·5 years ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="thumb">
+            <a
+              href="https://www.youtube.com/watch?v=094y1Z2wpJg"
+              target="_blank"
+              class="video-title-link"
+            >
+              <img class="thumbnail" src="thumbnail-6.webp" />
+            </a>
+            <div class="time">3:20</div>
+          </div>
+          <div class="pro-text">
+            <div class="profile">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/c/veritasium" target="_blank">
+                  <img class="pro" src="pro-5.jpeg" alt="profile" />
+                </a>
+                <div class="channel-tooltip">
+                  <img class="channel-tooltip-picture" src="pro-5.jpeg" />
+                  <div>
+                    <div class="channel-tooltip-name">Marques Brownlee</div>
+                    <div class="channel-tooltip-status">15M subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="text">
+              <a
+                href="https://www.youtube.com/watch?v=86CQq3pKSUw"
+                target="_blank"
+                class="video-title-link"
+              >
+                <p class="p1">
+                  Anythinng You Can Fit In The Circle I'll Pay For
+                </p>
+              </a>
+              <p class="p2">MrBeast</p>
+              <p class="p3">141M views · 1 years ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="thumb">
+            <a
+              href="https://www.youtube.com/watch?v=86CQq3pKSUw"
+              target="_blank"
+              class="video-title-link"
+            >
+              <img class="thumbnail" src="thumbnail-7.webp" />
+            </a>
+            <div class="time">9:25</div>
+          </div>
+          <div class="pro-text">
+            <div class="profile">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/c/CSDojo" target="_blank">
+                  <img class="pro" src="pro-6.jpeg" alt="profile" />
+                </a>
+                <div class="channel-tooltip">
+                  <img class="channel-tooltip-picture" src="pro-6.jpeg" />
+                  <div>
+                    <div class="channel-tooltip-name">Marques Brownlee</div>
+                    <div class="channel-tooltip-status">15M subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="text">
+              <a
+                href="https://www.youtube.com/watch?v=yXWw0_UfSFg"
+                target="_blank"
+                class="video-title-link"
+              >
+                <p class="p1">Why Planes Don't Fly Over Tibet</p>
+              </a>
+              <p class="p2">RealLifeLore</p>
+              <p class="p3">6.6M views · 1 years ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="thumb">
+            <a
+              href="https://www.youtube.com/watch?v=yXWw0_UfSFg"
+              target="_blank"
+              class="video-title-link"
+            >
+              <img class="thumbnail" src="thumbnail-8.webp" />
+            </a>
+            <div class="time">10:55</div>
+          </div>
+          <div class="pro-text">
+            <div class="profile">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/c/MrBeast6000" target="_blank">
+                  <img class="pro" src="pro-7.jpeg" alt="profile" />
+                </a>
+                <div class="channel-tooltip">
+                  <img class="channel-tooltip-picture" src="pro-7.jpeg" />
+                  <div>
+                    <div class="channel-tooltip-name">Marques Brownlee</div>
+                    <div class="channel-tooltip-status">15M subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="text">
+              <p class="p1">Why Planes Don't Fly Over Tibet</p>
+              <p class="p2">RealLifeLore</p>
+              <p class="p3">6.6M views · 1 years ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="thumb">
+            <img class="thumbnail" src="thumbnail-13.webp" />
+            <div class="time">1:30</div>
+          </div>
+          <div class="pro-text">
+            <div class="profile">
+              <img class="pro" src="pro-8(1).jpeg" alt="profile" />
+            </div>
+            <div class="text">
+              <p class="p1">
+                Talking Tech and AI with Google CEO Sundar Pichai!
+              </p>
+              <p class="p2">Marques Brownlee</p>
+              <p class="p3">3.4M views ·6 months ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="thumb">
+            <img class="thumbnail" src="thumbnail-10.webp" />
+            <div class="time">8:11</div>
+          </div>
+          <div class="pro-text">
+            <div class="profile">
+              <img class="pro" src="pro-9.jpeg" alt="profile" />
+            </div>
+            <div class="text">
+              <p class="p1">
+                Talking Tech and AI with Google CEO Sundar Pichai!
+              </p>
+              <p class="p2">Marques Brownlee</p>
+              <p class="p3">3.4M views ·6 months ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="thumb">
+            <img class="thumbnail" src="thumbnail-11.webp" />
+            <div class="time">11:30</div>
+          </div>
+          <div class="pro-text">
+            <div class="profile">
+              <img class="pro" src="pro-10.jpeg" alt="profile" />
+            </div>
+            <div class="text">
+              <p class="p1">
+                Talking Tech and AI with Google CEO Sundar Pichai!
+              </p>
+              <p class="p2">Marques Brownlee</p>
+              <p class="p3">3.4M views ·6 months ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="thumb">
+            <img class="thumbnail" src="thumbnail-12.webp" />
+            <div class="time">10:40</div>
+          </div>
+          <div class="pro-text">
+            <div class="profile">
+              <img class="pro" src="pro-11.jpeg" alt="profile" />
+            </div>
+            <div class="text">
+              <p class="p1">
+                Talking Tech and AI with Google CEO Sundar Pichai!
+              </p>
+              <p class="p2">Marques Brownlee</p>
+              <p class="p3">3.4M views ·6 months ago</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
