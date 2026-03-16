@@ -29,11 +29,12 @@ This project helped me understand:
 
 ## 🔗 Live Demo
 
-(Add your GitHub Pages link here)
+ https://hemach838-byte.github.io/pro-4/
+
 
 ## 💻 GitHub Repository
 
-(Add your repository link here)
+https://github.com/hemach838-byte/pro-4
 
 ## 📌 Author
 
